@@ -1,0 +1,443 @@
+/* General Style */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f5f5f5;
+  color: #4e4e4e;
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e1e1e;
+}
+.main-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.line {
+  width: 40px;
+  height: 5px;
+  background-color: #007bff;
+  margin: 0px auto 70px;
+}
+
+/* Header section */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/intro-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+@media screen and (max-width: 1024px) {
+  header {
+    background-attachment: scroll;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .bg-transparent {
+    background-color: #040404 !important;
+    z-index: 9999;
+  }
+}
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.navbar-nav {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.navbar-nav li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background-color: white;
+  margin-top: 5px;
+  transition: width 0.5s;
+}
+.navbar-nav li a:hover:after {
+  width: 40px;
+}
+.navbar-nav li a:focus:after {
+  width: 40px;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.header-content h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+.header-content h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+@media screen and (max-width: 640px) {
+  .header-content h1 {
+    font-size: 3rem;
+  }
+  .header-content h2 {
+    font-size: 1.5rem;
+  }
+}
+#spin:after {
+  content: "";
+  animation: spin 5s infinite;
+  transition: all 1s;
+}
+@keyframes spin {
+  0% {
+    content: "CEO DevFolio";
+  }
+  25% {
+    content: "Web Developer";
+  }
+  50% {
+    content: "Web Designer";
+  }
+  75% {
+    content: "Frontend Developer";
+  }
+  100% {
+    content: "Graphic Designer";
+  }
+}
+
+/* About section */
+.about {
+  background-color: white;
+}
+.box-shadow {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}
+.about .skills .progress {
+  margin: 10px 0 15px 0;
+  height: 12px;
+  border-radius: 0;
+}
+.about .title-me {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.about .title-me:after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background-color: #007bff;
+}
+.about-me p {
+  color: #353535;
+}
+
+/* services section */
+
+.service-item .icon {
+  color: black;
+  height: 100px;
+  width: 100px;
+  font-size: 4rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #007bff;
+  line-height: 100px;
+  margin: 25px auto 25px;
+  text-align: center;
+  transition: all 0.5s;
+}
+.service-item:hover .icon {
+  box-shadow: 0 0 0 10px #dfdfdf;
+  background-color: #007bff;
+  color: white;
+}
+.service-item h5 {
+  font-size: 1.5rem;
+}
+#service .rounded {
+  border-radius: 20px !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Counter Section */
+.counter {
+  background-image: linear-gradient(#007bffb4, #007bffb4),
+    url(../images/counters-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6rem;
+}
+@media screen and (max-width: 1024px) {
+  .counter {
+    background-attachment: scroll;
+  }
+}
+.counter .icon {
+  height: 60px;
+  width: 60px;
+  font-size: 2.2rem;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  box-shadow: 0 0 0 10px #f5f5f5;
+}
+.counter .numbers {
+  margin: 18px 0 0;
+  font-size: 2rem;
+}
+.counter .title {
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+}
+
+/* portfolio section */
+.portfolio-item {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#work .portfolio-item img {
+  transition: transform 0.7s;
+}
+
+#work .portfolio-item:hover img {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}
+.work-title {
+  font-size: 15px;
+}
+.work-icon {
+  color: #007bff;
+  font-size: 2.5rem;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+/* testmonial section */
+
+.testmonial {
+  background-image: linear-gradient(#007bffb4, #007bffb4),
+    url(../images/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1024px) {
+  .testmonial {
+    background-attachment: scroll;
+  }
+}
+
+.testmonial img {
+  border-radius: 50%;
+}
+
+.testmonial i {
+  background-color: white;
+  color: #007bff;
+  border-radius: 50%;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  margin: 20px 0 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1f1f1f;
+}
+.testmonial .nav-link {
+  background-color: cornsilk;
+  width: 25px;
+  height: 10px;
+  padding: 0;
+  margin-left: 8px;
+  transition: width 0.5s;
+}
+.testmonial .nav-link:focus {
+  width: 40px;
+}
+
+/* Blog Section */
+.blog-item {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.blog-title {
+  margin-bottom: 30px;
+}
+.blog-title-item {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.blog-title-item .title {
+  background-color: #007bff;
+  border-radius: 10px;
+  width: auto;
+  height: 35px;
+}
+.blog-title-item .title h2 {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px;
+}
+.blog-item h4 {
+  font-size: 20px;
+}
+.blog-item a {
+  text-decoration: none;
+  color: #1e1e1e;
+  transition: color 0.7s;
+}
+.blog-item h4:hover a {
+  color: #007bff;
+}
+.blog-item .footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid rgba(128, 128, 128, 0.527);
+  padding: 10px;
+}
+.blog-item .footer .img {
+  width: 40px;
+}
+.blog-item .footer img {
+  border-radius: 50%;
+}
+.blog-item .footer h4 {
+  font-size: 16px;
+}
+/* Contact Section */
+#contact {
+  background-image: linear-gradient(#007bffb4, #007bffb4),
+    url(../images/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1024px) {
+  #contact {
+    background-attachment: scroll;
+  }
+}
+#contact .contact-message-title {
+  position: relative;
+}
+@media screen and (max-width: 480px) {
+  .contact-message-title {
+    font-size: 18px;
+  }
+}
+.contact-message-title:after {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background-color: #007bff;
+}
+.bton {
+  border-radius: 25px;
+}
+.bton:focus {
+  outline: 0;
+}
+.social {
+  padding-left: 0;
+  margin-top: 30px;
+}
+.social li {
+  margin-right: 15px;
+  display: inline-block;
+}
+.social i {
+  color: black;
+  height: 40px;
+  width: 40px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #007bff;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.5s;
+}
+@media screen and (max-width: 640px) {
+  .social i {
+    height: 20px;
+    width: 20px;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+}
+.social i:hover {
+  box-shadow: 0 0 0 3px #dfdfdf;
+  background-color: #007bff;
+  color: white;
+}
+
+footer {
+  background-color: #0062d3;
+}
+footer span {
+  font-family: "Dancing Script", cursive;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.back-to-top i {
+  position: fixed;
+  right: 10px;
+  bottom: 35px;
+  height: 2.5rem;
+  width: 2.5rem;
+  line-height: 2.2rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 50%;
+  background-color: #033670;
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 13px;
+  }
+}

@@ -102,27 +102,175 @@ header {
 }
 #spin:after {
   content: "";
-  animation: spin 5s infinite;
-  transition: all 1s;
+  border-right: 3px solid #fff;
+  padding-right: 5px;
+  animation: spin 8s infinite;
 }
 @keyframes spin {
   0% {
-    content: "CEO DevFolio";
+    content: ".";
   }
-  25% {
-    content: "Web Developer";
+  2% {
+    content: "W";
   }
-  50% {
+  4% {
+    content: "We";
+  }
+  6% {
+    content: "Web";
+  }
+  8% {
+    content: "Web ";
+  }
+  10% {
+    content: "Web D";
+  }
+  12% {
+    content: "Web De";
+  }
+  14% {
+    content: "Web Des";
+  }
+  16% {
+    content: "Web Desi";
+  }
+  18% {
+    content: "Web Desig";
+  }
+  20% {
+    content: "Web Design";
+  }
+  22% {
+    content: "Web Designe";
+  }
+  24% {
     content: "Web Designer";
   }
-  75% {
-    content: "Frontend Developer";
+  26% {
+    content: "Web Designe";
   }
-  100% {
+  28% {
+    content: "Web Design";
+  }
+  30% {
+    content: "Web Desig";
+  }
+  32% {
+    content: "Web Desi";
+  }
+  34% {
+    content: "Web Des";
+  }
+  36% {
+    content: "Web De";
+  }
+  38% {
+    content: "Web D";
+  }
+40% {
+    content: "Web ";
+  }
+  42% {
+    content: "Web";
+  }
+  44% {
+    content: "We";
+  }
+  46% {
+    content: "W";
+  }
+  48% {
+    content: "";
+  }
+  50% {
+    content: "G";
+  }
+  52% {
+    content: "Gr";
+  }
+  54% {
+    content: "Gra";
+  }
+  56% {
+    content: "Grap";
+  }
+  58% {
+    content: "Graph";
+  }
+  60% {
+    content: "Graphi";
+  }
+  62% {
+    content: "Graphic";
+  }
+  64% {
+    content: "Graphic ";
+  }
+  66% {
+    content: "Graphic D";
+  }
+  68% {
+    content: "Graphic De";
+  }
+  70% {
+    content: "Graphic Des";
+  }
+  72% {
+    content: "Graphic Desi";
+  }
+  74% {
+    content: "Graphic Desig";
+  }
+  76% {
+    content: "Graphic Design";
+  }
+  78% {
+    content: "Graphic Designe";
+  }
+  80% {
     content: "Graphic Designer";
   }
+  82% {
+    content: "Graphic Designe";
+  }
+  84% {
+    content: "Graphic Design";
+  }
+  86% {
+    content: "Graphic Desig";
+  }
+  88% {
+    content: "Graphic Desi";
+  }
+  90% {
+    content: "Graphic Des";
+  }
+  91% {
+    content: "Graphic De";
+  }
+  92% {
+    content: "Graphic D";
+  }
+  93% {
+    content: "Graphic ";
+  }
+  94% {
+    content: "Graphic";
+  } 95% {
+    content: "Graphi";
+  } 96% {
+    content: "Graph";
+  }97% {
+    content: "Grap";
+  } 98% {
+    content: "Gra";
+  } 99% {
+    content: "Gr";
+  }
+  100% {
+    content: ".";
+ }
 }
-
 /* About section */
 .about {
   background-color: white;

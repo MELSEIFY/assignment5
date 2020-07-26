@@ -104,172 +104,275 @@ header {
   content: "";
   border-right: 3px solid #fff;
   padding-right: 5px;
-  animation: spin 8s infinite;
+  animation: spin 10s infinite;
 }
+
 @keyframes spin {
   0% {
     content: ".";
   }
-  2% {
+  1% {
     content: "W";
   }
-  4% {
+  2% {
     content: "We";
   }
-  6% {
+  3% {
     content: "Web";
   }
-  8% {
+  4% {
     content: "Web ";
   }
-  10% {
+  5% {
     content: "Web D";
   }
-  12% {
+  6% {
     content: "Web De";
   }
-  14% {
+  7% {
     content: "Web Des";
+  }
+  8% {
+    content: "Web Desi";
+  }
+  9% {
+    content: "Web Desig";
+  }
+  10% {
+    content: "Web Design";
+  }
+  11% {
+    content: "Web Designe";
+  }
+  12% {
+    content: "Web Designer";
+  }
+  13% {
+    content: "Web Designe";
+  }
+  14% {
+    content: "Web Design";
+  }
+  15% {
+    content: "Web Desig";
   }
   16% {
     content: "Web Desi";
   }
-  18% {
-    content: "Web Desig";
-  }
-  20% {
-    content: "Web Design";
-  }
-  22% {
-    content: "Web Designe";
-  }
-  24% {
-    content: "Web Designer";
-  }
-  26% {
-    content: "Web Designe";
-  }
-  28% {
-    content: "Web Design";
-  }
-  30% {
-    content: "Web Desig";
-  }
-  32% {
-    content: "Web Desi";
-  }
-  34% {
+  17% {
     content: "Web Des";
   }
-  36% {
+  18% {
     content: "Web De";
   }
-  38% {
+  19% {
     content: "Web D";
   }
-40% {
+  20% {
+    content: "Web De";
+  }
+  21% {
+    content: "Web Dev";
+  }
+  22% {
+    content: "Web Deve";
+  }
+  23% {
+    content: "Web Devel";
+  }
+  24% {
+    content: "Web Develo";
+  }
+  25% {
+    content: "Web Develop";
+  }
+  26% {
+    content: "Web Develope";
+  }
+  27% {
+    content: "Web Developer";
+  }
+  28% {
+    content: "Web Develope";
+  }
+  29% {
+    content: "Web Develop";
+  }
+  30% {
+    content: "Web Develo";
+  }
+  31% {
+    content: "Web Devel";
+  }
+  32% {
+    content: "Web Deve";
+  }
+  33% {
+    content: "Web Dev";
+  }
+  34% {
+    content: "Web De";
+  }
+  35% {
     content: "Web ";
   }
-  42% {
-    content: "Web";
-  }
-  44% {
+  36% {
     content: "We";
   }
-  46% {
+  37% {
     content: "W";
   }
-  48% {
+  38% {
     content: "";
   }
-  50% {
+ 
+  40% {
     content: "G";
   }
-  52% {
+  41% {
     content: "Gr";
+  }
+  42% {
+    content: "Gra";
+  }
+  43% {
+    content: "Grap";
+  }
+  44% {
+    content: "Graph";
+  }
+  45% {
+    content: "Graphi";
+  }
+  46% {
+    content: "Graphic";
+  }
+  47% {
+    content: "Graphic ";
+  }
+  48% {
+    content: "Graphic D";
+  }
+  49% {
+    content: "Graphic De";
+  }
+  50% {
+    content: "Graphic Des";
+  }
+  51% {
+    content: "Graphic Desi";
+  }
+  52% {
+    content: "Graphic Desig";
+  }
+  53% {
+    content: "Graphic Design";
   }
   54% {
-    content: "Gra";
-  }
-  56% {
-    content: "Grap";
-  }
-  58% {
-    content: "Graph";
-  }
-  60% {
-    content: "Graphi";
-  }
-  62% {
-    content: "Graphic";
-  }
-  64% {
-    content: "Graphic ";
-  }
-  66% {
-    content: "Graphic D";
-  }
-  68% {
-    content: "Graphic De";
-  }
-  70% {
-    content: "Graphic Des";
-  }
-  72% {
-    content: "Graphic Desi";
-  }
-  74% {
-    content: "Graphic Desig";
-  }
-  76% {
-    content: "Graphic Design";
-  }
-  78% {
     content: "Graphic Designe";
   }
-  80% {
+  55% {
     content: "Graphic Designer";
   }
-  82% {
+  56% {
     content: "Graphic Designe";
   }
-  84% {
+  57% {
     content: "Graphic Design";
   }
-  86% {
+  58% {
     content: "Graphic Desig";
   }
-  88% {
+  59% {
     content: "Graphic Desi";
   }
-  90% {
+  60% {
     content: "Graphic Des";
   }
-  91% {
+  61% {
     content: "Graphic De";
   }
-  92% {
+  62% {
     content: "Graphic D";
   }
-  93% {
+  63% {
     content: "Graphic ";
   }
-  94% {
+  64% {
     content: "Graphic";
-  } 95% {
+  }
+  65% {
     content: "Graphi";
-  } 96% {
+  }
+  66% {
     content: "Graph";
-  }97% {
+  }
+  67%{
     content: "Grap";
-  } 98% {
+  }
+  68% {
     content: "Gra";
-  } 99% {
+  }
+  69% {
     content: "Gr";
   }
-  100% {
-    content: ".";
- }
+  70% {
+    content: "G";
+  }
+  71% {
+    content: "";
+  }
+  72% {
+    content: "M";
+  } 73% {
+    content: " Mo";
+  } 74% {
+    content: "Moh";
+  }
+  75% {
+    content: "Moha";
+  }76% {
+    content: "Moham";
+  }77% {
+    content: "Mohamed";
+  }
+  78% {
+    content: "Mohamed S";
+  }
+  79% {
+    content: "Mohamed Sa";
+  }
+  80% {
+    content: "Mohamed Sam";
+  }
+  81% {
+    content: "Mohamed Sami";
+  }
+  82% {
+    content: "Mohamed Sam";
+  }83% {
+    content: "Mohamed Sa";
+  }84% {
+    content: "Mohamed S";
+  }85% {
+    content: "Mohamed";
+  }86% {
+    content: "Mohame";
+  }
+  87% {
+    content: "Moham";
+  }88% {
+    content: "Moha";
+  }89% {
+    content: "Moh";
+  }90% {
+    content: "Mo";
+  }92% {
+    content: "M";
+  }
+  94% {
+    content: "";
+  }
 }
 /* About section */
 .about {
